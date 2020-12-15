@@ -1,25 +1,15 @@
-header {
-    /*height: 350px;*/
-    padding: 40px;
-    overflow: auto;
-}
 
 .me-image {
     height: 200px;
-    margin: 55px 50px 0px 0px;
+    margin: 60px 40px;
 }
 
 section {
     padding: 100px 0px;
 }
-
-h1 {
-    margin: 100px 0px 0px 0px; 
-    text-align: center;   
-}
  
 .card {
-    margin: 20px;
+    margin: 20px 20px 80px;
 }
     
 .card-img-top, .card-img-top-2 {
@@ -34,6 +24,19 @@ h1 {
     left: 10px;
 }
 
+.contact-box {
+    margin: 100px 10px;
+}
+
+.body-portfolio {
+    position: relative;
+}
+footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+
+}
 @media only screen and (max-width: 768px) {
     .me-image {
         float: left;
