@@ -1,19 +1,21 @@
 
+/* .row class styles index, porfolio, and contact files */
 .row {
     margin-bottom: 40px;
 }
 
-.me-image {
+.esteban-pic {
     height: 200px;
     float: left;
     margin: 20px 20px 20px 0px;
-    /*margin: 60px 40px; this should be under query*/
 }
 
+/* Styles the section box (about me box) of the index file only */
 section {
     padding: 100px 0px;
 }
 
+/* lines 19 to 27 styles the two cards in the portfolio file and the images */
 .card {
     margin: 20px 20px 80px;
 }
@@ -24,21 +26,23 @@ section {
     margin: 10px;   
 }
 
-.social {
-    position: fixed;
-    bottom: 0;
-    left: 10px;
-}
-
+/* Styles contact me box */
 .contact-box {
     margin: 0px 10px;
 }
 
-.logo {
+/* lines 35 to 44 style social media box and links */
+.logosbx {
+    padding: 40px 0px;
+    margin-left: 10px;
+}
+
+.ghlogo,
+.lnkinlogo {
     width: 40px;
     height: 40px;
-    margin: 10px;
 }
+
 
 @media only screen and (min-width: 768px){
      .card-img-top, .card-img-top-2 {
