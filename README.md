@@ -43,9 +43,11 @@ I want employers and other developers to know that I am able to create a mobile 
 
 ## Screenshots
 
-![Home/About Image]<img src="css/images/homepic.png">
-![Portfolio Image]<img src="css/images/portfoliopic.png">
-![Contact Me Image]<img src="css/images/contactpic.png">
+<img src="css/images/homepic.png" alt="Home/About screenshot" width="25%" height="30%">
+
+<img src="css/images/portfoliopic.png" alt="Portfolio screenshot" width="25%" height="30%">
+
+<img src="css/images/contactpic.png" alt="Contact Me screenshot" width="25%" height="30%">
 
 ## Link to Page
 
