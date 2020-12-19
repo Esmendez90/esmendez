@@ -9,9 +9,10 @@ As a student-developer, I want to create web applications that render well on a 
 * [Motivation](#motivation)
 * [Description](#description)
 * [Requirements](#requirements)
+* [Screenshots](#screenshots)
+* [Link to Page](#link-to-page)
 * [Tools](#tools)
 * [Takeaway](#takeaway)
-
 
 ## Motivation
 
@@ -39,6 +40,16 @@ I want employers and other developers to know that I am able to create a mobile 
 * Each page must have valid and correct HTML. (use a validation service)
 * Must contain your personalized information. (bio, name, images, links to social media, etc.)
 * Must properly utilize Bootstrap components and grid system.
+
+## Screenshots
+
+![Home/About Image]<img src="css/images/homepic.png">
+![Portfolio Image]<img src="css/images/portfoliopic.png">
+![Contact Me Image]<img src="css/images/contactpic.png">
+
+## Link to Page
+
+<https://esmendez90.github.io/>
 
 ## Tools
 
