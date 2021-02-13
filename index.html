@@ -1,90 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
 
-<head>
+    <title>Esteban Mendez Portfolio</title>
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
+    <!-- Bootstrap core CSS -->
+    <link
+      href="./assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
 
-  <title>Esteban Mendez Portfolio</title>
+    <!-- Custom styles for this template -->
+    <link href="./assets/css/scrolling-nav.css" rel="stylesheet" />
 
-  <!-- Bootstrap core CSS -->
-  <link href="./assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- This is my own stylesheet-->
+    <link rel="stylesheet" href="./assets/main.css" />
+  </head>
 
-  <!-- Custom styles for this template -->
-  <link href="./assets/css/scrolling-nav.css" rel="stylesheet">
-
-  <!-- This is my own stylesheet-->
-  <link rel="stylesheet" href="./assets/main.css">
-
-</head>
-
-<body>
-
-  <!-- Navigation bar -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
-    <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">Esteban Mendez</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
-        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about">Home/About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="portfolio.html">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="contact.html">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  <!-- About me paragraph -->
-  <section id="about">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 mx-auto">
-          <img src="./assets/images/esteban2.png" alt="Esteban Mendez picture" class="esteban-pic">
-          <h2>About Me</h2>
-          <p class="lead">My name is Esteban Mendez and I'm in the path to acquire a full stack web developer career at Rutgers
-            Coding Bootcamp. Coding is a new-found passion that I have wanted to learn for some
-            time and I could not be happier. I feel excited about transitioning my skills from my years as a cardiology analyst
-            into this new career. I believe my knowledge, excellent customer service, and work ethic can turn me into a
-            valuable asset in this field. It is my desire to land in a company where I can contribute with my skills
-            and experience to a successful future. </p>
-          <ul>
-            <li>Click <a href="./assets/images/my-resume.png" target="_blank">here</a> to view my resume</li>
+  <body>
+    <!-- Navigation bar -->
+    <nav
+      class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top"
+      id="mainNav"
+    >
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top"
+          >Esteban Mendez</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarResponsive"
+          aria-controls="navbarResponsive"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">Home/About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="portfolio.html"
+                >Portfolio</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="contact.html"
+                >Contact</a
+              >
+            </li>
           </ul>
         </div>
       </div>
-    </div>
-  </section>
+    </nav>
+    <!-- About me paragraph -->
+    <section id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto" id="aboutMe">
+            
+            <h2>About Me</h2>
+            <img
+              src="./assets/images/esteban.jpeg"
+              alt="Esteban Mendez picture"
+              class="esteban-pic"
+            />
+            <p class="lead">
+              My name is Esteban Mendez and I'm in the path to become a full
+              stack web developer. Coding is a new-found passion that I have
+              wanted to learn for some time and I could not be happier. I feel
+              excited about transitioning my skills from my years as a
+              cardiology analyst into this new career. I believe my knowledge,
+              excellent customer service, and work ethic can turn me into a
+              valuable asset in this field. It is my desire to land in a company
+              where I can contribute with my skills and experience to a
+              successful future.
+            </p>
+          </div>
+          <div class="col-lg-8 mx-auto" id="technologiesContainer">
+            <h2>Languages</h2>
+            <div class="languages">
+              <img src="./assets/images/htmlLogo.png" class="languages-logos" alt="HTML logo"/>
+              <img src="./assets/images/cssLogo.png" class="languages-logos" alt="CSS logo"/>
+              <img src="./assets/images/jsLogo.png" class="languages-logos" alt="JavaScript logo"/>
+            </div>
+          </div>
 
-  <!-- Footer -->
-  <footer class="py-5 bg-dark fixed-bottom">
-    <div class="container">
-      <p class="m-0 text-center text-white">Copyright &copy; Esteban Mendez 2020</p>
-    </div>
-    <!-- /.container -->
-  </footer>
+          <div class="col-lg-8 mx-auto" id="resumeContainer">
+            <h2>Resume</h2>
+            <p class="lead">
+              Click
+              <a
+                href="./assets/images/Resume-Esteban-Mendez.pdf"
+                target="_blank"
+                >here</a
+              >
+              to view my resume
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-  <!-- Bootstrap core JavaScript -->
-  <script src="./assets/vendor/jquery/jquery.min.js"></script>
-  <script src="./assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Footer -->
+    <footer class="py-5 bg-dark fixed-bottom">
+      <div class="container">
+        <p class="m-0 text-center text-white">
+          Copyright &copy; Esteban Mendez 2020
+        </p>
+      </div>
+      <!-- /.container -->
+    </footer>
 
-  <!-- Plugin JavaScript -->
-  <script src="./assets/vendor/jquery-easing/jquery.easing.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script src="./assets/vendor/jquery/jquery.min.js"></script>
+    <script src="./assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-  <!-- Custom JavaScript for this theme -->
-  <script src="./assets/js/scrolling-nav.js"></script>
+    <!-- Plugin JavaScript -->
+    <script src="./assets/vendor/jquery-easing/jquery.easing.min.js"></script>
 
-</body>
-
+    <!-- Custom JavaScript for this theme -->
+    <script src="./assets/js/scrolling-nav.js"></script>
+  </body>
 </html>

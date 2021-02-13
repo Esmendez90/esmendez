@@ -7,7 +7,7 @@
 .esteban-pic {
     height: 200px;
     float: left;
-    margin: 20px 20px 20px 0px;
+    margin: 7px 20px 20px 0px;
 }
 
 /* Styles the section box (about me box) of the index file only */
@@ -18,6 +18,18 @@ section {
 /* lines 19 to 27 styles the two cards in the portfolio file and the images */
 .card {
     margin: 20px 20px 80px;
+}
+#technologiesContainer, #resumeContainer {
+    margin: 10px auto;
+}
+
+.languages {
+    text-align: center;
+    margin: 10px auto;
+}
+
+.languages-logos {
+    margin: 10px 20px;
 }
     
 .card-img-top, .card-img-top-2 {
@@ -39,8 +51,8 @@ section {
 
 .ghlogo,
 .lnkinlogo {
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
 }
 
 
