@@ -1,65 +1,99 @@
+#hello {
+  background-image: url("https://cdn.pixabay.com/photo/2020/01/11/07/39/north-4756774_960_720.jpg");
+  background-color: #cccccc;
+  height: 1000px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hello-container {
+    text-align: center;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: 4px 4px black;
+
+  }
+
+  .btn {
+      margin: 10px;
+      border-color:darkblue;
+      cursor: pointer;
+  }
+
+  .hide {
+      display: none;
+  }
+
+ 
 
 /* .row class styles index, porfolio, and contact files */
 .row {
-    margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 .esteban-pic {
-    height: 200px;
-    float: left;
-    margin: 7px 20px 20px 0px;
+  height: 200px;
+  float: left;
+  margin: 7px 20px 20px 0px;
 }
 
 /* Styles the section box (about me box) of the index file only */
 section {
-    padding: 100px 0px;
+  padding: 100px 0px;
 }
 
 /* lines 19 to 27 styles the two cards in the portfolio file and the images */
 .card {
-    margin: 20px 20px 80px;
+  margin: 20px 20px 80px;
 }
-#technologiesContainer, #resumeContainer {
-    margin: 10px auto;
+#technologiesContainer,
+#resumeContainer {
+  margin: 10px auto;
 }
 
 .languages {
-    text-align: center;
-    margin: 10px auto;
+  text-align: center;
+  margin: 10px auto;
 }
 
 .languages-logos {
-    margin: 10px 20px;
+  margin: 10px 20px;
 }
-    
-.card-img-top, .card-img-top-2 {
-    width: auto;
-    height: 350px;
-    margin: 10px;   
+
+.card-img-top,
+.card-img-top-2 {
+  width: auto;
+  height: 350px;
+  margin: 10px;
 }
 
 /* Styles contact me box */
 .contact-box {
-    margin: 0px 10px;
+  margin: 0px 10px;
 }
 
 /* lines 35 to 44 style social media box and links */
 .logosbx {
-    padding: 40px 0px;
-    margin-left: 10px;
+  padding: 40px 0px;
+  margin-left: 10px;
 }
 
 .ghlogo,
 .lnkinlogo {
-    width: 60px;
-    height: 60px;
+  width: 60px;
+  height: 60px;
 }
 
-
+/* 
 @media only screen and (min-width: 768px){
      .card-img-top, .card-img-top-2 {
         width: 100;
         height: 200px;
         margin: 10px;   
     }
-}
+} */
