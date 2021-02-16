@@ -24,8 +24,8 @@
     <link rel="stylesheet" href="./assets/main.css" />
   </head>
 
-  <body>
-    <!--Navigation bar-->
+  <body id="aboutMePage">
+    <!-- Navigation bar -->
     <nav
       class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top"
       id="mainNav"
@@ -34,6 +34,7 @@
         <a class="navbar-brand js-scroll-trigger" href="index.html"
           >Esteban Mendez</a
         >
+
         <button
           class="navbar-toggler"
           type="button"
@@ -48,9 +49,7 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="about.html"
-                >Home/About</a
-              >
+              <a class="nav-link js-scroll-trigger" href="#about">Home/About</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="portfolio.html"
@@ -58,68 +57,74 @@
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+              <a class="nav-link js-scroll-trigger" href="contact.html"
+                >Contact</a
+              >
             </li>
           </ul>
         </div>
       </div>
     </nav>
-    <!-- Contact me section -->
-    <section id="contact" class="bg-light">
+
+    <!-- About me paragraph -->
+    <section id="about">
       <div class="container">
         <div class="row">
-          <div class="col-12">
-            <h2>Contact Me</h2>
-            <ul>
-              <li>edmendezn@gmail.com</li>
-              <li>(201) 360-1905</li>
-            </ul>
-          </div>
-        </div>
-        <!-- Email and message box -->
-        <div class="contact-box">
-          <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label"
-              >Subject</label
-            >
-            <input
-              type="text"
-              class="form-control"
-              id="exampleFormControlInput1"
+          <div class="col-lg-8 mx-auto" id="aboutMe">
+            <h2>About Me</h2>
+            <img
+              src="./assets/images/esteban.jpeg"
+              alt="Esteban Mendez picture"
+              class="esteban-pic"
             />
+            <p class="lead">
+              Coding is a new-found passion that I have wanted to learn for some
+              time and I could not be happier. I feel excited about
+              transitioning my skills from my years as a cardiology analyst into
+              this new career. I believe my knowledge, excellent customer
+              service, and work ethic can turn me into a valuable asset in this
+              field. It is my desire to land in a company where I can contribute
+              with my skills and experience to a successful future.
+            </p>
           </div>
-          <div class="mb-3">
-            <label for="exampleFormControlTextarea1" class="form-label"
-              >Type Message</label
-            >
-            <textarea
-              class="form-control"
-              id="exampleFormControlTextarea1"
-              rows="3"
-            ></textarea>
+          <div class="col-lg-8 mx-auto" id="technologiesContainer">
+            <h2>Languages</h2>
+            <div class="languages">
+              <img
+                src="./assets/images/htmlLogo.png"
+                class="languages-logos"
+                alt="HTML logo"
+              />
+              <img
+                src="./assets/images/cssLogo.png"
+                class="languages-logos"
+                alt="CSS logo"
+              />
+              <img
+                src="./assets/images/jsLogo.png"
+                class="languages-logos"
+                alt="JavaScript logo"
+              />
+              <img
+                src="./assets/images/nodejs.png"
+                class="languages-logos"
+                alt="Node js logo"
+              />
+            </div>
           </div>
-          <div>
-            <input type="submit" value="Send" />
+
+          <div class="col-lg-8 mx-auto" id="resumeContainer">
+            <h2>Resume</h2>
+            <p class="lead">
+              Click
+              <a
+                href="./assets/images/Resume-Esteban-Mendez.pdf"
+                target="_blank"
+                >here</a
+              >
+              to view my resume
+            </p>
           </div>
-        </div>
-        <!-- Social media links -->
-        <div class="logosbx">
-          <a href="https://github.com/Esmendez90" target="_blank"
-            ><img
-              src="./assets/images/GitHub-Mark.png"
-              class="ghlogo"
-              alt="Github link"
-            />
-          </a>
-          <a
-            href="https://www.linkedin.com/in/esteban-mendez-63515290/"
-            target="_blank"
-            ><img
-              src="./assets/images/linkedin-logo.png"
-              class="lnkinlogo"
-              alt="linkedin link"
-            />
-          </a>
         </div>
       </div>
     </section>
@@ -131,6 +136,7 @@
           Copyright &copy; Esteban Mendez 2020
         </p>
       </div>
+      <!-- /.container -->
     </footer>
 
     <!-- Bootstrap core JavaScript -->
@@ -139,6 +145,9 @@
 
     <!-- Plugin JavaScript -->
     <script src="./assets/vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!--  Ajax  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
     <!-- Custom JavaScript for this theme -->
     <script src="./assets/js/scrolling-nav.js"></script>
