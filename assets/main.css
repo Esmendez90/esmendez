@@ -18,6 +18,20 @@
   text-shadow: 4px 4px black;
 }
 
+.cropped {
+  display: inline-block;
+  height: 180px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.sky {
+  color: white;
+  position: absolute;
+  top: 100px;
+  left: 25px;
+}
+
 .btn {
   margin: 10px;
   border-color: darkblue;
@@ -37,7 +51,7 @@
 
 /* Styles the section box (about me box) of the index file only */
 section {
-  padding: 100px 0px;
+  padding: 0px 0px 20px;
 }
 
 /* lines 19 to 27 styles the two cards in the portfolio file and the images */
@@ -83,11 +97,67 @@ section {
   height: 60px;
 }
 
-/* 
-@media only screen and (min-width: 768px){
-     .card-img-top, .card-img-top-2 {
-        width: 100;
-        height: 200px;
-        margin: 10px;   
-    }
+/* @media only screen and (max-width: 363px) {
+  .cropped {
+    display: inline-block;
+    height: 180px;
+    width: 100%;
+    overflow: hidden;
+  }
+}
+
+@media only screen and (min-width: 576px) {
+  .sky {
+    color: white;
+    position: relative;
+    top: -40px;
+    left: 40px;
+  }
+}
+
+@media only screen and (min-width: 623px) {
+  .sky {
+    color: white;
+    position: absolute;
+    top: 100px;
+    left: 60px;
+  }
+}
+
+@media only screen and (min-width: 835px) {
+  .sky {
+    color: white;
+    position: absolute;
+    top: 100px;
+    left: 20px;
+    margin-left:80px
+  }
+}
+
+@media only screen and (min-width: 935px) {
+  .sky {
+    color: white;
+    position: absolute;
+    top: 100px;
+    left: 40px;
+    margin-left:80px
+  }
+}
+
+@media only screen and (min-width: 999px) {
+  .sky {
+    color: white;
+    position: absolute;
+    top: 100px;
+    left: 110px;
+  }
+}
+
+@media only screen and (min-width: 1100px) {
+  .sky {
+    color: white;
+    position: absolute;
+    top: 100px;
+    left: 380px;
+  }
 } */
