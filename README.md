@@ -12,7 +12,7 @@ As a student-developer, I want to create web applications that render well on a 
 * [Screenshots](#screenshots)
 * [Link to Page](#link-to-page)
 * [Tools](#tools)
-* [Takeaway](#takeaway)
+* [License](#License)
 
 ## Motivation
 
@@ -59,8 +59,8 @@ I want employers and other developers to know that I am able to create a mobile 
 * Visual Studio Code <https://code.visualstudio.com>.
 * Markup Validation Service <https://validator.w3.org/>.
 
-## Takeaway
+## License
 
-This is a fun project that will help you see how a responsive layout is vital for a web application to render flawlessly on any screen size.
+MIT
 
  
