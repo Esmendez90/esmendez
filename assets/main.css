@@ -91,3 +91,34 @@
   width: 65px;
   height: 60px;
 }
+
+#mainNav {
+  background-color: blue;
+  background-image: linear-gradient(
+    to top,
+    rgb(6, 97, 70),
+    rgb(62, 147, 158),
+    rgb(27, 78, 112),
+    rgb(5, 22, 48)
+  );
+}
+
+footer {
+  background-color: blue;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(6, 97, 70),
+    rgb(62, 147, 158),
+    rgb(27, 78, 112),
+    rgb(5, 22, 48)
+  );
+}
+
+.navbar-brand {
+  color: #f8f9fa;
+  text-shadow: 2px 2px black;
+}
+.nav-link {
+  text-shadow: 1px 1px black;
+  font-weight: bolder;
+}
